@@ -1,0 +1,14 @@
+GIMP MAPPING SETTINGS
+
+BRUSH (NOT PEN)
+Hardness 50 brush
+size = 10 (half this size for detailing)
+aspect / angle = 0
+spacing = 10
+hardness = 50
+force = 100
+Dynamics smooth stroke
+Quality = 20
+Weight = 50
+
+x

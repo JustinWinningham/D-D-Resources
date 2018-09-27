@@ -1,0 +1,399 @@
+Country,Capital,Cells,Burgs,Area (mi2),Population
+Tarfordia,Barlinne,695,45,183422,6925000
+Kingdom of Rel,Devaraunum,828,57,257321,9507000
+Northend,Goritin,621,42,167199,6885000
+Dowenland,Coyers,328,22,96496,3894000
+Titria,Lekra,350,23,118068,4940000
+Lediar,Cecciaro,1074,58,331859,14346000
+Aracha,Thougy,380,25,106807,4510000
+Dutchy of Garinor,Sunum,515,27,161741,7091000
+Guan,Almamino,162,11,49703,2277000
+Frozen  Isles,Umanzaton,836,37,158049,8506000
+Utmaa,Siunsi,369,19,106361,4140000
+New Tania,Leressoy,180,5,36895,1304000
+Versilla,Rechilov,138,4,16963,789000
+Tiumia,Vequriga,129,3,17030,681000
+neutral,,231,7,58971,823000
+
+Burg,Country,Culture,Population
+Barlinne,Tarfordia,Angshire,27016.000000000004
+Devaraunum,Kingdom of Rel,Latian,39424
+Goritin,Northend,Slovian,32208.000000000007
+Coyers,Dowenland,Angshire,133848
+Lekra,Titria,Elladian,46728.00000000001
+Corchiara,Lediar,Eldinar,27368.000000000007
+Thougy,Aracha,Angshire,26664.000000000004
+Sunum,Dutchy of Garinor,Latian,25432.000000000004
+Almamino,Guan,Hantzu,44968
+Umanzaton,Frozen  Isles,Toledi,26312.000000000004
+Siunsi,Utmaa,Soomi,25608.000000000004
+Leressoy,New Tania,Angshire,20504
+Rechilov,Versilla,Slovian,19360.000000000004
+Vequriga,Tiumia,Latian,21120.000000000004
+Pitry,Northend,Angshire,12320.000000000002
+Gotyhov,Northend,Slovian,18304.000000000004
+Izha,Northend,Slovian,9680.000000000002
+Mtsen,Northend,Slovian,22264.000000000004
+Oskotel,Northend,Slovian,17864.000000000004
+Pateuilles,Tarfordia,Angshire,18304.000000000004
+Torchesk,Northend,Slovian,18656.000000000004
+Conflesa,Lediar,Latian,9680.000000000002
+Liardroy,Tarfordia,Angshire,15928.000000000004
+Toursain,Northend,Angshire,10384.000000000002
+Vebe,Northend,Slovian,11616.000000000002
+Senai,Titria,Elladian,14608.000000000002
+Zizhok,Northend,Slovian,17160.000000000004
+Sambor,Northend,Slovian,12408.000000000004
+Versk,Kingdom of Rel,Slovian,8360.000000000002
+Fiuliano,Lediar,Eldinar,17336.000000000004
+Roslav,Northend,Slovian,8712.000000000002
+Povina,Kingdom of Rel,Latian,17512
+Ambianum,Kingdom of Rel,Latian,11528.000000000002
+Foucres,Tarfordia,Angshire,7304.000000000001
+Esplena,Guan,Hantzu,12936
+Vaseretsk,Kingdom of Rel,Slovian,9592.000000000002
+Karachev,Northend,Slovian,14168.000000000005
+Emangy,Tarfordia,Angshire,11528.000000000002
+Villepieds,Tarfordia,Angshire,6600.000000000001
+Colivis,Kingdom of Rel,Latian,8008.000000000001
+Mada,Frozen  Isles,Toledi,14432
+Montati,Lediar,Eldinar,7832.000000000002
+Svishin,Northend,Slovian,10560.000000000002
+Lactorum,Kingdom of Rel,Latian,10824.000000000004
+Karna,Northend,Slovian,13816.000000000002
+Pres,Tarfordia,Angshire,14256.000000000002
+Tordos,Aracha,Hantzu,14256.000000000002
+Aubin,Dowenland,Angshire,8184.000000000003
+Izmanov,Northend,Slovian,11880.000000000002
+Almadrino,Frozen  Isles,Toledi,13640.000000000002
+Trati,Lediar,Latian,9416.000000000002
+Gorod,Northend,Slovian,13552.000000000002
+Pannescoux,Tarfordia,Angshire,8448
+Torchevsk,Northend,Slovian,7920.000000000001
+Milettuso,Lediar,Eldinar,12584.000000000004
+Res Van,Tarfordia,Angshire,8624.000000000002
+Anos,Titria,Elladian,8976
+Bozborsk,Kingdom of Rel,Slovian,9944.000000000002
+Sante,Lediar,Eldinar,8184.000000000003
+Terro,Lediar,Eldinar,10032.000000000002
+Guigny,Tarfordia,Angshire,8448
+Bois,Dowenland,Angshire,10120.000000000004
+Mabe,Tarfordia,Angshire,9944.000000000002
+Bouville,Tarfordia,Angshire,8096
+Cova,Kingdom of Rel,Latian,12936
+Panteau,Dowenland,Angshire,7128.000000000001
+Darmaieury,Dowenland,Angshire,7480.000000000001
+Cabisa,Dutchy of Garinor,Latian,8272.000000000002
+Kilmi,Utmaa,Soomi,6600.000000000001
+Roccia,Lediar,Eldinar,11704.000000000002
+Snisov,Northend,Slovian,6952.000000000001
+Gariemanne,Tarfordia,Angshire,10912.000000000002
+Aeva Pa,Kingdom of Rel,Latian,9856
+Nevillant,Tarfordia,Angshire,12056.000000000002
+Pers,Dowenland,Angshire,9680.000000000002
+Kimnacussa,Titria,Elladian,5896.000000000001
+Iolbia,Titria,Elladian,8008.000000000001
+Legium Si,Kingdom of Rel,Latian,7568.000000000001
+Radon,Tarfordia,Angshire,8360.000000000002
+Levetivium,Kingdom of Rel,Latian,7744.000000000002
+Broccumie,Lediar,Eldinar,8624.000000000002
+Liekkini,Utmaa,Soomi,5808.000000000001
+Myonia,Titria,Elladian,8888.000000000002
+Izma,Northend,Slovian,11616.000000000002
+Vallitelle,Lediar,Eldinar,6512.000000000001
+Bererin,Northend,Slovian,6424
+Lemevesk,Northend,Slovian,8712.000000000002
+Iuguliobri,Dutchy of Garinor,Latian,11000
+Taba,Frozen  Isles,Toledi,11792.000000000002
+Bouvy,Tarfordia,Angshire,6160.000000000001
+Gran,Dowenland,Angshire,7832.000000000002
+Ello,Frozen  Isles,Toledi,12496
+Rugus,Dutchy of Garinor,Latian,9240.000000000002
+Tubutsk,Northend,Slovian,8800
+Lico,Lediar,Eldinar,8712.000000000002
+Donnecy,Tarfordia,Angshire,7568.000000000001
+Chan,Tarfordia,Angshire,7480.000000000001
+As Oucourt,Tarfordia,Angshire,14344.000000000004
+Stra,Titria,Elladian,10296
+Kard,Utmaa,Soomi,10560.000000000002
+Buntia,Lediar,Latian,11704.000000000002
+Antiochlos,Titria,Elladian,5632.000000000002
+Vetroro Co,Lediar,Eldinar,5368
+Chernorod,Northend,Slovian,7832.000000000002
+Geno,Lediar,Eldinar,8272.000000000002
+Gormionion,Titria,Elladian,7480.000000000001
+Knos,Utmaa,Elladian,6160.000000000001
+Yunchon,Aracha,Hantzu,8272.000000000002
+Tricata,Lediar,Eldinar,6688.000000000001
+Corum,Dutchy of Garinor,Latian,6864.000000000001
+Ucilcan,Guan,Hantzu,10912.000000000002
+Rapon,Titria,Elladian,6776.000000000001
+Maones,Frozen  Isles,Toledi,5104
+Vilovshi,Kingdom of Rel,Slovian,7216
+Durnovaria,Dutchy of Garinor,Latian,9328.000000000002
+Boniatum,Kingdom of Rel,Latian,8272.000000000002
+Zelsk,Northend,Slovian,6952.000000000001
+Yla,Utmaa,Soomi,9064.000000000002
+Challia,Utmaa,Elladian,6952.000000000001
+Onium,Lediar,Latian,8976
+Orrina,Lediar,Eldinar,9768.000000000002
+Damun,Dowenland,Angshire,7304.000000000001
+Viendavery,Tarfordia,Angshire,6424
+Rebreaux,Aracha,Angshire,9328.000000000002
+Vseresk,Kingdom of Rel,Slovian,8184.000000000003
+Balet,Northend,Angshire,7480.000000000001
+Ahjaanky,Utmaa,Soomi,5896.000000000001
+Ond,Aracha,Angshire,9504.000000000002
+Vogo,Northend,Slovian,8536
+Piglia,Lediar,Eldinar,9856
+Rillas,Aracha,Hantzu,10208
+Devitsk,Northend,Slovian,6072.000000000001
+Argo,Lediar,Eldinar,12408.000000000004
+Quivigni,Lediar,Eldinar,7832.000000000002
+Tiapina,Kingdom of Rel,Latian,5720.000000000001
+Visiorum,Kingdom of Rel,Latian,5720.000000000001
+Scylcismos,Titria,Elladian,5808.000000000001
+Lita,Frozen  Isles,Toledi,9064.000000000002
+Boigne,Dowenland,Angshire,14168.000000000005
+Agrovium,Kingdom of Rel,Latian,5016.000000000001
+Denana,Frozen  Isles,Toledi,5016.000000000001
+Osiasus,Aracha,Elladian,10472.000000000004
+Mate,Aracha,Angshire,12320.000000000002
+Molancar,Frozen  Isles,Toledi,5632.000000000002
+Almozas,Guan,Hantzu,5456.000000000001
+Tofla,Lediar,Eldinar,8624.000000000002
+Mardon,Tarfordia,Angshire,6160.000000000001
+Proceno,Lediar,Eldinar,5544.000000000001
+Torreda,Frozen  Isles,Toledi,4664.000000000001
+Minzione,Lediar,Eldinar,9680.000000000002
+Flodunum,Dutchy of Garinor,Latian,9768.000000000002
+Trebovia,Tiumia,Latian,10032.000000000002
+Yejalivias,Frozen  Isles,Toledi,7920.000000000001
+Ennes,Tarfordia,Angshire,9856
+Gorco,Lediar,Eldinar,7832.000000000002
+Villy,Northend,Angshire,8536
+Corviari,Dutchy of Garinor,Latian,10296
+Cilda,neutral,Hantzu,5632.000000000002
+Lorinium,Lediar,Latian,10296
+Covium,Dutchy of Garinor,Latian,5280.000000000001
+Marnoceno,Kingdom of Rel,Latian,9416.000000000002
+Boune,Dowenland,Angshire,5984.000000000001
+Me,Tiumia,Latian,8712.000000000002
+Coin,Dowenland,Angshire,8536
+Nonio,Kingdom of Rel,Latian,6512.000000000001
+Razochy,Aracha,Angshire,7832.000000000002
+Gesquita,Frozen  Isles,Toledi,5368
+Budia,Frozen  Isles,Toledi,6248
+Fignamo,Lediar,Eldinar,6248
+Torre,Frozen  Isles,Toledi,4136.000000000001
+Mano,Lediar,Eldinar,8976
+Oreremosh,Kingdom of Rel,Slovian,4752.000000000001
+Nidutum,Dutchy of Garinor,Latian,9856
+Matillas,neutral,Hantzu,6512.000000000001
+Sirgentia,Dutchy of Garinor,Latian,5368
+Cecciaro,Lediar,Eldinar,15840.000000000002
+Lelum,Kingdom of Rel,Latian,5192.000000000001
+Roverento,Lediar,Eldinar,6952.000000000001
+Nocorna Sa,Kingdom of Rel,Latian,9592.000000000002
+Cinos,Frozen  Isles,Toledi,10208
+Santano,Lediar,Eldinar,8888.000000000002
+Reches,Northend,Angshire,8096
+Evavo,Dutchy of Garinor,Latian,6776.000000000001
+Enela,Titria,Elladian,5544.000000000001
+Pita,Lediar,Eldinar,10032.000000000002
+Augy,Tarfordia,Angshire,11616.000000000002
+Nernum,Dutchy of Garinor,Latian,10208
+Kosh,Kingdom of Rel,Slovian,6688.000000000001
+Ka,Kingdom of Rel,Slovian,11264.000000000004
+Terrallas,Aracha,Hantzu,6776.000000000001
+Cacusoce,Lediar,Eldinar,5104
+Esium,Kingdom of Rel,Latian,6160.000000000001
+Majonde,Frozen  Isles,Toledi,6160.000000000001
+Lalijes,Guan,Hantzu,4752.000000000001
+Rolyn,Kingdom of Rel,Slovian,10296
+Villeauve,Tarfordia,Angshire,7832.000000000002
+Bachy,Tarfordia,Angshire,4400
+Mero,Lediar,Eldinar,7832.000000000002
+Nolorobyl,Northend,Slovian,9944.000000000002
+Accapegio,Lediar,Eldinar,8184.000000000003
+Caquentia,Dutchy of Garinor,Latian,4664.000000000001
+Nigdunum,Kingdom of Rel,Latian,6688.000000000001
+Bongy,Aracha,Angshire,9944.000000000002
+Aligoses,Guan,Hantzu,7480.000000000001
+Cendille,Aracha,Hantzu,6512.000000000001
+Ressy,Tarfordia,Angshire,6336.000000000001
+Pattaletiso,Lediar,Eldinar,6336.000000000001
+Gorba,Lediar,Eldinar,9592.000000000002
+Toma,Dutchy of Garinor,Latian,6160.000000000001
+Deverovia,Dutchy of Garinor,Latian,5280.000000000001
+Colba,Lediar,Eldinar,8712.000000000002
+Vites,Tarfordia,Angshire,9592.000000000002
+A,Guan,Hantzu,5016.000000000001
+Gemilda,Frozen  Isles,Toledi,7216
+Buletruy,New Tania,Angshire,8536
+Maliquegas,Frozen  Isles,Toledi,4312.000000000001
+Rejostilco,Guan,Hantzu,7392.000000000001
+Oki,Utmaa,Soomi,8888.000000000002
+Oret,New Tania,Angshire,9416.000000000002
+Bemyansk,Kingdom of Rel,Slovian,7568.000000000001
+Allaticiri,Lediar,Eldinar,5632.000000000002
+Mados,Frozen  Isles,Toledi,5456.000000000001
+Sandielos,Aracha,Hantzu,4576.000000000001
+Dulorum,Kingdom of Rel,Latian,7832.000000000002
+Rzhishek,Kingdom of Rel,Slovian,6424
+Dunum,Dutchy of Garinor,Latian,6776.000000000001
+Tiorvi,Utmaa,Soomi,4576.000000000001
+Seres,Aracha,Angshire,5544.000000000001
+Auiers,Tarfordia,Angshire,8800
+Bacorum,Kingdom of Rel,Latian,5984.000000000001
+Medribalo,Frozen  Isles,Toledi,8976
+Dubruisk,Kingdom of Rel,Slovian,9944.000000000002
+Combre,Lediar,Angshire,8712.000000000002
+Rocrea,Lediar,Eldinar,5104
+Tille,Northend,Angshire,9856
+Rescona,Guan,Hantzu,8536
+Ciero,Lediar,Eldinar,9416.000000000002
+Rinovium,Dutchy of Garinor,Latian,8800
+Bougy,New Tania,Angshire,9328.000000000002
+Canza,Lediar,Eldinar,9856
+Pers,Tarfordia,Angshire,9592.000000000002
+Kursk,Kingdom of Rel,Slovian,9504.000000000002
+Baita,Titria,Elladian,8008.000000000001
+Fori,Lediar,Eldinar,9856
+Quintellas,Frozen  Isles,Toledi,8272.000000000002
+Goresla,Kingdom of Rel,Slovian,9504.000000000002
+Vysla,Northend,Slovian,6952.000000000001
+Beauzy,Tarfordia,Angshire,7744.000000000002
+Poret,Tarfordia,Angshire,5456.000000000001
+Nicae,Dutchy of Garinor,Latian,6072.000000000001
+Mtsen,Kingdom of Rel,Slovian,8360.000000000002
+Lavaljalah,Utmaa,Soomi,6248
+Sorna,Dutchy of Garinor,Latian,8184.000000000003
+Pornum,Dutchy of Garinor,Latian,7040.000000000001
+Torzola,Frozen  Isles,Toledi,7392.000000000001
+Trinay,Aracha,Angshire,4928
+Aleiana,Utmaa,Elladian,7832.000000000002
+Holozyr,Northend,Slovian,8800
+Vironaro,Dutchy of Garinor,Latian,7128.000000000001
+Boignoncy,Aracha,Angshire,4576.000000000001
+Caeiavica,Kingdom of Rel,Latian,8976
+Ante,Tarfordia,Angshire,5544.000000000001
+Kuron,Titria,Elladian,4664.000000000001
+Usbrynsk,Northend,Slovian,7656.000000000001
+Argos Pima,Titria,Elladian,9856
+Muraria,Kingdom of Rel,Latian,6512.000000000001
+Spigifici,Lediar,Eldinar,8976
+Chuelles,Tarfordia,Angshire,7040.000000000001
+Yenamanaga,Frozen  Isles,Toledi,4400
+Ricia,Lediar,Latian,9240.000000000002
+Casa,Lediar,Eldinar,4400
+Kursk,Versilla,Slovian,8272.000000000002
+Vieviosa,Utmaa,Soomi,9592.000000000002
+Panasktas,Titria,Elladian,6776.000000000001
+Lans,Dowenland,Angshire,7480.000000000001
+Tiselle,Tarfordia,Angshire,7744.000000000002
+Arerunum,Kingdom of Rel,Latian,9064.000000000002
+Arnona,Kingdom of Rel,Latian,5280.000000000001
+Villy,Tarfordia,Angshire,5808.000000000001
+Drunum,Kingdom of Rel,Latian,9240.000000000002
+Lupego,Frozen  Isles,Toledi,7480.000000000001
+Lainia,Titria,Elladian,6512.000000000001
+Cum Re,Kingdom of Rel,Latian,6600.000000000001
+Vatefon,Tarfordia,Angshire,4928
+Cerdes,Dowenland,Angshire,9768.000000000002
+Larieau,Dowenland,Angshire,9064.000000000002
+Grechio,Lediar,Eldinar,5016.000000000001
+Vicrivis,Dutchy of Garinor,Latian,6864.000000000001
+Thoyers,Tarfordia,Angshire,9768.000000000002
+Liuscum,Kingdom of Rel,Latian,7920.000000000001
+Letocetum,Lediar,Latian,7480.000000000001
+Santadasas,Frozen  Isles,Toledi,7392.000000000001
+Torzue,Frozen  Isles,Toledi,4664.000000000001
+Holy,Kingdom of Rel,Slovian,8888.000000000002
+Aucus,Kingdom of Rel,Latian,8360.000000000002
+Espino,Frozen  Isles,Toledi,7392.000000000001
+Herteoulay,Tarfordia,Angshire,4664.000000000001
+Hiela,Utmaa,Elladian,4312.000000000001
+Tymapitra,Titria,Elladian,7920.000000000001
+Gises,Tarfordia,Angshire,5456.000000000001
+Valaakari,Utmaa,Soomi,5896.000000000001
+Ushesk,Northend,Slovian,5808.000000000001
+Are,Tarfordia,Angshire,4400
+Ville,Tarfordia,Angshire,6424
+Duba,Kingdom of Rel,Latian,7040.000000000001
+Asseiacus,Titria,Elladian,6776.000000000001
+Avelanados,Aracha,Hantzu,5104
+Ilgar,Frozen  Isles,Toledi,8360.000000000002
+Stilia,Lediar,Eldinar,5808.000000000001
+Maven,Guan,Hantzu,8272.000000000002
+Drestnia,Northend,Slovian,8712.000000000002
+Gleliusta,Kingdom of Rel,Latian,7656.000000000001
+None,Lediar,Eldinar,5632.000000000002
+Bois,Tarfordia,Angshire,6776.000000000001
+Trive,Dowenland,Angshire,4928
+Sangaugen,Dowenland,Angshire,7216
+Nestelci,Lediar,Eldinar,8624.000000000002
+Hille,Northend,Angshire,6688.000000000001
+Randileve,Dutchy of Garinor,Latian,6864.000000000001
+Teneu,Tarfordia,Angshire,9240.000000000002
+Varta,Lediar,Eldinar,5544.000000000001
+Gondre,Aracha,Angshire,4400
+Pidavaldea,Frozen  Isles,Toledi,7392.000000000001
+Norigensis,Dutchy of Garinor,Latian,6072.000000000001
+Heranue,Guan,Hantzu,8536
+Briatay,Aracha,Angshire,9328.000000000002
+Ville,Dowenland,Angshire,4400
+Atemig,Dowenland,Angshire,6512.000000000001
+Beliontiri,Titria,Elladian,4664.000000000001
+Alla,Frozen  Isles,Toledi,9768.000000000002
+Kurion,Titria,Elladian,8888.000000000002
+Lorum,Kingdom of Rel,Latian,6776.000000000001
+Navum,Kingdom of Rel,Latian,5280.000000000001
+Dajayotum,Aracha,Hantzu,7128.000000000001
+Embel,neutral,Hantzu,4488
+Slutsk,Northend,Slovian,8096
+Chaus,Dowenland,Angshire,7128.000000000001
+Dossas,Dowenland,Angshire,5544.000000000001
+Gond,Dowenland,Angshire,8448
+Barte,Tarfordia,Angshire,4400
+Ardos,Frozen  Isles,Toledi,7480.000000000001
+Bopecas,Frozen  Isles,Toledi,4312.000000000001
+Dorodbesk,Kingdom of Rel,Slovian,5720.000000000001
+Eneares,Utmaa,Elladian,4224
+Meraiscoux,Aracha,Angshire,5280.000000000001
+Grinoury,New Tania,Angshire,9064.000000000002
+Nigdugusca,Kingdom of Rel,Latian,8976
+Phala,Versilla,Elladian,8360.000000000002
+Thieu,Dowenland,Angshire,5192.000000000001
+Askha,Titria,Elladian,8800
+Aeronium,Kingdom of Rel,Latian,4224
+Kolok,Kingdom of Rel,Slovian,6600.000000000001
+Vina Ner,Kingdom of Rel,Latian,7656.000000000001
+Selle,Lediar,Eldinar,7832.000000000002
+Legubia,Frozen  Isles,Toledi,8360.000000000002
+Deia,Aracha,Elladian,7128.000000000001
+Corboissoy,Aracha,Angshire,8360.000000000002
+Ceccio,Lediar,Eldinar,8008.000000000001
+Irues,Frozen  Isles,Toledi,5456.000000000001
+Vidy,Tarfordia,Angshire,8976
+Dodozo,Frozen  Isles,Toledi,6424
+Alle,Lediar,Eldinar,5368
+Maaha,Utmaa,Soomi,8184.000000000003
+Sanas,Frozen  Isles,Toledi,8008.000000000001
+Monda,Lediar,Eldinar,9064.000000000002
+Kosphe,Titria,Elladian,6424
+Orod,Kingdom of Rel,Slovian,11176.000000000002
+Vebovl,Northend,Slovian,5544.000000000001
+Spigliapo,Lediar,Eldinar,5984.000000000001
+Porvi,Utmaa,Soomi,4488
+Lukoml,Versilla,Slovian,5192.000000000001
+Torolensk,Northend,Slovian,6336.000000000001
+Castrix,Kingdom of Rel,Latian,8448
+Geveia,Dutchy of Garinor,Latian,5896.000000000001
+Alcorizar,Aracha,Hantzu,4400
+Lactoma,Kingdom of Rel,Latian,8712.000000000002
+Briarleans,Northend,Angshire,7568.000000000001
+Terunum,Dutchy of Garinor,Latian,7304.000000000001
+Jare,Aracha,Angshire,7216
+Lai,Utmaa,Soomi,8008.000000000001
+Borados,Frozen  Isles,Toledi,3608
