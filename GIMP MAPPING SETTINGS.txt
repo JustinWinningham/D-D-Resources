@@ -10,5 +10,3 @@ force = 100
 Dynamics smooth stroke
 Quality = 20
 Weight = 50
-
-x
