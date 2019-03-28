@@ -1,0 +1,166 @@
+Scriptname MeadControlLeverScript extends ObjectReference  
+
+import debug
+import utility
+
+
+Bool Property ReadyToPour  Auto  
+
+ObjectReference Property Waterfall  Auto ; Waterfall
+
+ObjectReference Property WaterAudio  Auto  ; Waterfall Audio
+
+ObjectReference Property WaterLevel  Auto ; Mead Water in cask
+
+ObjectReference Property FullCask  Auto  ; Full cask (default disabled)
+
+ObjectReference Property EmptyDefaultCask  Auto  ; empty cask object (to hide and replace with full cask)
+
+Float Property Delay  Auto  
+
+Message Property StoreWarehouseMessage Auto
+
+Bool property isInPullPosition = True Auto
+
+DXXAMMeadBoilerScript[] Property BoilerScripts Auto
+
+ObjectReference[] Property OverheadPipes  Auto
+
+MeadControlButton Property ControlButtonScript Auto
+
+ObjectReference Property WarehouseEnabled Auto
+
+DXXAMMeadWarehouseBarrelScript[] Property WarehouseBarrelScripts Auto
+
+EVENT OnLoad()
+	SetDefaultState()
+endEVENT
+
+Event OnReset()
+	SetDefaultState()
+EndEvent
+
+;This has to be handled as a function, since OnLoad and OnReset can fire in either order, and we can't handle competing animation calls.
+Function SetDefaultState()
+	if (isInPullPosition)
+		playAnimation("FullPull")
+		gotoState("pulledPosition")
+	Else
+		playAnimation("FullPull")
+		gotoState("busy")
+	EndIf
+EndFunction
+
+Bool Function FillUp()
+	if WaterLevel.GetPositionZ() <= 180
+		WaterLevel.SetPosition(WaterLevel.GetPositionX(),WaterLevel.GetPositionY(),WaterLevel.GetPositionZ() + 1.5)
+		Wait(0.5)
+		return true
+	endIf
+	return false
+EndFunction
+
+Bool Function IsOneBarrelValid()
+	Int Holder = 0
+	Int Idr = WarehouseBarrelScripts.Length
+	while Idr > 1 ;
+		Idr -= 1
+		if WarehouseBarrelScripts[Idr].CanBeFilled()
+			Holder+= 1
+		endIf
+	endWhile
+	if Holder > 0
+		return true
+	endIf
+	return false
+EndFunction
+
+Function PackageBarrel(Int PumpedBoiler)
+	Waterfall.Enable(true)
+	WaterAudio.Enable()
+	Wait(Delay)
+	WaterLevel.Enable(true)
+
+	Bool Filling = true
+	While Filling
+		Filling = FillUp()
+	EndWhile
+	Waterfall.Disable(true)
+	WaterAudio.Disable()
+	Wait(1)
+	;At this point, we have a full cask of mead (open), and have stopped the pouring
+
+	EmptyDefaultCask.Disable()
+	FullCask.Enable(true)
+	WaterLevel.SetPosition(WaterLevel.GetPositionX(),WaterLevel.GetPositionY(),100)
+	WaterLevel.Disable(true)
+	;At this point, we have only the full cask of mead (closed), everything else disabled
+	
+
+	;Make our call to find open barrels here, then figure out how to display ONLY the valid locations -- BUG POSSIBLE START SOMEWHERE AFTER THIS -------------------
+	Bool KeepLooking = true
+	Int Choice = 0
+	while KeepLooking
+		Choice = StoreWarehouseMessage.Show(1,2,3,4,5,6,7,8,9)
+		if WarehouseBarrelScripts[Choice].CanBeFilled()
+			KeepLooking = false
+		else
+			Debug.Notification("Please pick a barrel that exists and is empty")
+		endIf
+	endWhile
+
+	Debug.Notification("Boiler #" + PumpedBoiler + " Emptied.")
+	Debug.Notification("Cask of " + BoilerScripts[PumpedBoiler].GetType() + " mead sent to Warehouse spot " + Choice)
+
+	;AT THIS POINT, WE WANT TO ENABLE TO WAREHOUSE BARREL WITH THE CORRECT MEAD INSIDE
+	WarehouseBarrelScripts[Choice].FillWithMead(Choice)
+	Choice = 0
+
+	FullCask.Disable(true) ; disable the full cask
+	wait(2)
+	EmptyDefaultCask.Enable(true) ; enable the empty cask, return to default state.
+EndFunction
+
+Auto STATE pulledPosition
+	EVENT onActivate (objectReference triggerRef)
+		gotoState ("busy")
+		isInPullPosition = False
+		playAnimationandWait("FullPush","FullPushedUp")
+		int  ActiveBoiler = ControlButtonScript.GetActiveBoiler()
+		;Package a barrel
+		if ReadyToPour
+			if (ActiveBoiler == 3 || ActiveBoiler == 2 || ActiveBoiler == 1) && OverheadPipes[1].IsDisabled()
+				Debug.Notification("You cannot pump this row until you connect it to the pipe network")
+			elseif(ActiveBoiler == 4 || ActiveBoiler == 5 || ActiveBoiler == 6) && OverheadPipes[2].IsDisabled()
+				Debug.Notification("You cannot pump this row until you connect it to the pipe network")
+			elseif(ActiveBoiler == 4 || ActiveBoiler == 5 || ActiveBoiler == 6) && OverheadPipes[2].IsDisabled()
+				Debug.Notification("You cannot pump this row until you connect it to the pipe network")
+			elseif BoilerScripts[ActiveBoiler].IsBoilerBrewing()
+				Debug.Notification("You cannot pack incomplete mead")
+			elseif WarehouseEnabled.IsDisabled()
+				Debug.Notification("You must build a warehouse to store your product first")
+			elseif BoilerScripts[ActiveBoiler].IsFinishedBrewing()
+				If IsOneBarrelValid()
+					PackageBarrel(ActiveBoiler)
+					BoilerScripts[ActiveBoiler].PumpMeadToFillingStation()
+				endIf
+			else
+				Debug.Notification("There is no mead in this Boiler to pump")
+			endIf
+		endIf
+		;gotoState("pushedPosition")
+		Wait(1)
+		;Activate(Game.GetPlayer())
+		isInPullPosition = True
+		playAnimationandWait("FullPull","FullPulledDown")
+		gotoState("pulledPosition")
+	endEVENT
+endState
+
+STATE busy
+	; This is the state when I'm busy animating
+		EVENT onActivate (objectReference triggerRef)
+			Debug.Notification("You are already pouring mead")
+			;do nothing
+		endEVENT
+endSTATE
